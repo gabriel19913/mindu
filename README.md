@@ -396,7 +396,7 @@ def cena():
     print("a tecla {} foi pressionada".format(s))
 
 mindu.loop.start()
-
+```
 O método on_ding() exige um pouco mais de explicação. Para ilustrar a utilidade desse método, suponha que você queira que o seu jogo imprima a string "spam" sempre que a tecla ESPAÇO for pressionada. Naturalmente, isso seria possível com o método ding(), conforme você vê no código abaixo:
 ```python
 import mindu
